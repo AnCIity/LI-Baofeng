@@ -1,0 +1,56 @@
+/* 导航栏当前状态 */
+header>div>nav li:nth-child(2) a {
+    background-color: #0b68c8;
+}
+
+.main-bank {
+    padding: 10px 10px;
+    background-color: #FFF;
+}
+
+.bank-filter ul {
+    margin: 20px 0;
+}
+
+.bank-filter ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bank-filter ul:first-child li {
+    padding: 0 20px;
+    margin: 0 10px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.bank-filter ul:first-child .select {
+    background-color: #0b68c8;
+    color: #fff;
+}
+
+.bank-filter ul:last-child {
+    background-color: #f8f8f8;
+    border: 1px solid #e3e3e3;
+    color: #0b68c8;
+    height: 40px;
+}
+
+.bank-filter ul:last-child li {
+    padding: 0 30px;
+    vertical-align: middle;
+}
+
+.bank-filter ul:last-child .select {
+    height: 37px;
+    line-height: 37px;
+    color: #000;
+    background-color: #fff;
+    border-right: 1px solid #e3e3e3;
+    border-top: 4px solid #0b68c8;
+}
+
+
+.mod-list li {
+    margin-bottom: 50px;
+}

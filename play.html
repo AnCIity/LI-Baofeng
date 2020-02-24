@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>暴风影音-播放</title>
+    <!-- 重置 CSS -->
+    <link rel="stylesheet" href="./css/public/reset.css">
+    <!-- 全局 CSS -->
+    <link rel="stylesheet" href="./css/public/common.css">
+    <!-- 布局 CSS -->
+    <link rel="stylesheet" href="./css/public/layout.css">
+    <!-- 页面 CSS -->
+    <link rel="stylesheet" href="./css/page/play.css">
+    <!-- an JS -->
+    <script src="./js/public/an.js"></script>
+    <!-- 公共 JS -->
+    <script src="./js/public/common.js"></script>
+</head>
+
+<body>
+
+    <div class="play-head">
+        <div class="wrap">
+            <div class="play-head-inner">
+                <div class="play-head-left">
+                    <div class="logo"></div>
+                    <ul>
+                        <li><a href="./index.html">首页</a></li>
+                        <li><a href="#">导航</a></li>
+                    </ul>
+                </div>
+                <div class="play-head-center">
+                    <input type="search" name="search" autocomplete="off" placeholder="请输入搜索内容"><input type="button"
+                        value="搜索">
+                </div>
+                <div class="play-head-right">
+                    <ul>
+                        <li><a href="#">看过</a></li>
+                        <li><a href="#">收藏</a></li>
+                        <li><a href="#">客户端</a></li>
+                        <li><a href="./sign.html#in">登录</a>/<a href="./sign.html#up">注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="play-show">
+        <div class="wrap">
+            <div class="play-show-inner">
+                <div class="play-show-nav">
+                    <h4>羞羞的铁拳</h4>
+                    <nav><a href="#">电影</a> &#62; <a href="#">内地</a> &#62; <a href="#">喜剧</a>/<a href="#">剧情</a> &#62;
+                        <a href="#">羞羞的铁拳</a></nav>
+                </div>
+                <div class="play-show-main">
+                    <div class="show-main-top">
+                        <video></video>
+                        <div>
+                            <nav><a href="#" class="select">选集</a><a href="#">商品</a></nav>
+                            <div class="content">
+                                <ul>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li><a href="#">选集</a></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-main-bottom">
+                        <div class="chunk-left">
+                            <div>
+                                <a href="#">赞</a>
+                                <a href="#">踩</a>
+                                <a href="#">收藏</a>
+                            </div>
+                            <div>
+                                <a href="#">下载</a>
+                                <a href="#">分享</a>
+                                <a href="#">剧透</a>
+                            </div>
+                        </div>
+                        <div class="chunk-right">
+                            <a href="#">暴风影音客户端下载</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="play-content">
+        <div class="wrap">
+            <div class="play-content-inner clearfix">
+
+                <div class="content-left">
+                    <div class="cont-like">
+                        <h2 class="play-title"><i></i>猜你喜欢</h2>
+                        <ul class="mod-list">
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/1.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/2.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/3.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/4.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/5.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/1.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/2.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/3.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/4.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="mod-list-top">
+                                    <a href="#"><img src="./images/hot/5.jpg" alt=""></a>
+                                </div>
+                                <div class="mod-list-bottom">
+                                    <h5>天气预报</h5>
+                                    <p>天气预报天气预报</p>
+                                    <span>7.2</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cont-recom">
+                        <h2 class="play-title"><i></i>热门推荐</h2>
+                        <ul>
+                            <li>
+                                <img src="./images/hotrecommend/1.jpg" alt="">
+                                <p>开封府</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/2.jpg" alt="">
+                                <p>萌鸡小学堂</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/3.jpg" alt="">
+                                <p>魔都风云</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/4.jpg" alt="">
+                                <p>解放海南岛</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/5.jpg" alt="">
+                                <p>追地英雄</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/6.jpg" alt="">
+                                <p>娘亲舅大</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/7.jpg" alt="">
+                                <p>生死线</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/8.jpg" alt="">
+                                <p>楚乔传</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p>金战</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p>可可小爱科普系列</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p>战狼2</p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p>家有儿女</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cont-rank">
+                        <h2 class="play-title"><i></i>电影榜</h2>
+                        <ul class="rank-list">
+                            <li class="select">
+                                <img src="./images/hotrecommend/1.jpg" alt="">
+                                <p><i>1</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/2.jpg" alt="">
+                                <p><i>2</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/3.jpg" alt="">
+                                <p><i>3</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/4.jpg" alt="">
+                                <p><i>4</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/5.jpg" alt="">
+                                <p><i>5</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/6.jpg" alt="">
+                                <p><i>6</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/7.jpg" alt="">
+                                <p><i>7</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/8.jpg" alt="">
+                                <p><i>8</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p><i>9</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                            <li>
+                                <img src="./images/hotrecommend/9.jpg" alt="">
+                                <p><i>10</i>龙泉沟<em>7.5</em></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content-right">
+                    <div class="content-input">
+                        <div class="content-input-title">
+                            <h2 class="play-title"><i></i>评论</h2>
+                            <span>（共<em>0</em>条）</span>
+                            <span>还可以输入<em>140</em>字</span>
+                        </div>
+                        <div class="content-input-oper" contenteditable="true" placeholder="快来吐个槽吧！"></div>
+                        <div class="clearfix"><button>发表评论</button></div>
+                        <div class="clearfix">
+                            <p>评论需绑定手机号<a href="javascript:void(0)">立即绑定手机</a></p>
+                        </div>
+                    </div>
+                    <div class="content-com">
+                        <nav>
+                            <div class="select">按热度</div>
+                            <div>按最新</div>
+                        </nav>
+                        <ul class="content-list">
+
+                        </ul>
+                        <div class="content-page">
+                            <input type="text" value="1">/
+                            <span>1</span>
+                            <button>确定</button>
+                            <button>上一页</button>
+                            <button>下一页</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="play-copy">
+        <div class="wrap">
+            <div class="play-copy-inner">
+                <p><a href="#">投资者关系</a> | <a href="#">影音论坛导航</a> | <a href="#">加入暴风</a> | <a href="#">联系我们</a> | <a
+                        href="#">暴风无线产品</a> | <a href="#">暴风文验室</a> | <a href="#">更新历史</a> | <a href="#">关于我们</a></p>
+                <p>暴风集团股份有限公司联系电话: 400-098-7846 (工作日9:30--21:30)</p>
+                <p>京ICP证070364号 京网文[2014] 0921-221号互联网药品信息服务资格证书(京) 非经营性2008-0039 广播电视节目制作经营许可证: (京)字第01166号</p>
+                <p>京公网安备11010802020226号京ICP备08011423号 信息网络传播视听许可证号 : 0108298营业性演出许可证 网络出版服务许可证</p>
+                <p>海淀警方预防电信诈骗宣传 首都网络安全日</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面 JS -->
+    <script src="./js/page/play.js"></script>
+</body>
+
+</html>

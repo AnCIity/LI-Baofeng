@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>暴风影音</title>
+    <!-- 重置 CSS -->
+    <link rel="stylesheet" href="./css/public/reset.css">
+    <!-- 页面 CSS -->
+    <link rel="stylesheet" href="./css/page/sign.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap">
+            <div class="head-main">
+                <div class="logo"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="wrap">
+            <div class="body-main">
+                <div class="body-left">
+                    <img src="./images/image/duang.jpg" alt="">
+                </div>
+                <div class="body-right">
+                    <h2 class="body-title">账号注册</h2>
+
+                    <form action="">
+                        <p></p>
+                        <div class="form-tel">
+                            <input type="tel" name="tel" placeholder="输入手机号" autocomplete="off">
+                        </div>
+                        <div class="form-pass">
+                            <input type="password" name="password" placeholder="输入密码" autocomplete="off">
+                            <div></div>
+                        </div>
+                        <div class="form-verify">
+                            <input type="text" name="verify" placeholder="输入右侧验证码" autocomplete="off">
+                            <i id="verify">1234</i>
+                            <button id="reVerify" type="button">换</button>
+                        </div>
+                        <div class="form-msg">
+                            <input type="text" name="msg" placeholder="输入短信验证码" autocomplete="off">
+                            <button type="button">免费获取短信</button>
+                        </div>
+                        <div class="form-tip">
+                            <input type="checkbox" name="xieyi" checked><span> 我同意<a href="#">《暴风影音注册协议》</a></span>
+                            <span><a href="./sign.html#in"
+                                    onclick="window.location='./sign.html#in';window.location.reload()">立即登录</a></span>
+
+                        </div>
+                        <input type="submit" name="submit" value="注册">
+                    </form>
+                    <p><i>?</i> 遇到问题 <span class="yzmdl" style="display: none;"><a href="#">手机验证码登录</a></span></p>
+                    <div class="other">
+                        <p>其他方式登录</p>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrap">
+            <div class="foot-main">
+                <p>客服QQ: 800111739 电话: 4000987846 (周一至周日9:30-21:30 )</p>
+                <p>暴风集团股份有限公司</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 页面 JS -->
+    <script src="./js/page/sign.js"></script>
+</body>
+
+</html>

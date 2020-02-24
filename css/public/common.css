@@ -1,0 +1,27 @@
+/* 公共全局变量 */
+
+/* :root {
+    --textColor: #31c27c;
+} */
+
+/* body-滚动条 */
+
+/* body::-webkit-scrollbar {
+    background-color: white;
+    width: .5em;
+    height: .5em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--textColor);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 197, 130, .4);
+} */
+
+/* 清除浮动 */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}

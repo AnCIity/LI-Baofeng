@@ -1,0 +1,115 @@
+/* 导航栏当前状态 */
+header>div>nav li:first-child a {
+    background-color: #0b68c8;
+}
+
+/* 轮播图 start */
+
+.show-main .carousel {
+    position: relative;
+}
+
+.show-main .option {
+    width: 86%;
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+}
+
+.show-main .option {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, .9), transparent);
+}
+
+.show-main .option li {
+    position: relative;
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+.show-main .option .shade::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    pointer-events: none;
+}
+
+.show-main .option img {
+    cursor: pointer;
+}
+
+.show-main .dire {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.show-main .dire-left {
+    left: 40px;
+}
+
+.show-main .dire-right {
+    right: 40px;
+}
+
+/* 轮播图 end */
+
+
+/* vip特权模块 */
+
+.mod-vip .vip-priv {
+    position: relative;
+}
+
+.mod-vip .vip-car {
+    overflow: hidden;
+}
+
+.mod-vip .vip-priv ul {
+    width: 2500px;
+    white-space: nowrap;
+}
+
+.mod-vip .vip-priv li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 111px;
+    margin: 0 8px;
+    background: url(../../images/image/vip-powers.png) no-repeat;
+}
+
+.mod-vip .vip-dire {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    color: gray;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.mod-vip .vip-dire-left {
+    left: -50px;
+}
+
+.mod-vip .vip-dire-right {
+    right: -50px;
+}
